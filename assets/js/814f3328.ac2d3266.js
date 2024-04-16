@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Stuck in Limbo - How to Handle Radio-Silent SMEs in Technical Writing","permalink":"/blog/SME-handling-tips","unlisted":false}]}')}}]);
