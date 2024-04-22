@@ -2,11 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docwizard.github.io/blog/</id>
     <title>DocWizard's Blog Blog</title>
-    <updated>2024-04-16T00:00:00.000Z</updated>
+    <updated>2024-04-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docwizard.github.io/blog/"/>
     <subtitle>DocWizard's Blog Blog</subtitle>
     <icon>https://docwizard.github.io/blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Unix directory structure]]></title>
+        <id>https://docwizard.github.io/blog/dir-structure</id>
+        <link href="https://docwizard.github.io/blog/dir-structure"/>
+        <updated>2024-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wait, where's my Program Files?]]></summary>
+        <content type="html"><![CDATA[<p>As a new Linux convert, I was initially baffled about the *nix directory structure. Gone was the familiar structure of a Windows system, with its C:/Windows folder hiding the essential system files. Here, everything is on display - and oh, how confusing it all seemed to me. In this article, we'll delve into the most common folders you'll find within a typical Linux root directory.</p>
+<p>Inside your root (/) directory, you will most likely find the following directories:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="bin-binary-files">Bin (Binary Files)<a href="https://docwizard.github.io/blog/dir-structure#bin-binary-files" class="hash-link" aria-label="Direct link to Bin (Binary Files)" title="Direct link to Bin (Binary Files)">​</a></h4>
+<p>The bin folder (/bin) contains executable binary files that are used by the system and users. These files are typically compiled programs that perform specific tasks, such as ls (listing files) or cp (copying files).</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="boot">Boot<a href="https://docwizard.github.io/blog/dir-structure#boot" class="hash-link" aria-label="Direct link to Boot" title="Direct link to Boot">​</a></h4>
+<p>The boot folder (/boot) stores files related to the boot process, such as kernel images, bootloaders (e.g., GRUB), and other initialization files. This folder is critical for booting the system.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="dev-devices">Dev (Devices)<a href="https://docwizard.github.io/blog/dir-structure#dev-devices" class="hash-link" aria-label="Direct link to Dev (Devices)" title="Direct link to Dev (Devices)">​</a></h4>
+<p>The dev folder (/dev) contains device files that represent physical devices or virtual interfaces. These files are used by programs to interact with devices such as hard drives, printers, or network interfaces.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="etc-configuration-files">etc (Configuration Files)<a href="https://docwizard.github.io/blog/dir-structure#etc-configuration-files" class="hash-link" aria-label="Direct link to etc (Configuration Files)" title="Direct link to etc (Configuration Files)">​</a></h4>
+<p>The etc folder (/etc) holds configuration files for various system components, such as network settings (e.g., /etc/network/interfaces), user accounts (e.g., /etc/passwd), or system services (e.g., /etc/init.d). These files are used by programs to configure and customize system behavior.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="home-user-home-directories">Home (User Home Directories)<a href="https://docwizard.github.io/blog/dir-structure#home-user-home-directories" class="hash-link" aria-label="Direct link to Home (User Home Directories)" title="Direct link to Home (User Home Directories)">​</a></h4>
+<p>The home folder (/home) is where user home directories are stored. Each user has their own subdirectory within this folder, containing their personal files, settings, and configurations. The shortcut to access your own home directory is ~/</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="lib-library-files">Lib (Library Files)<a href="https://docwizard.github.io/blog/dir-structure#lib-library-files" class="hash-link" aria-label="Direct link to Lib (Library Files)" title="Direct link to Lib (Library Files)">​</a></h4>
+<p>The lib folder (/lib) contains shared library files that are used by programs to perform specific functions or provide additional functionality.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="media-mount-points-and-mnt-mount-points">Media (Mount Points) and mnt (Mount Points)<a href="https://docwizard.github.io/blog/dir-structure#media-mount-points-and-mnt-mount-points" class="hash-link" aria-label="Direct link to Media (Mount Points) and mnt (Mount Points)" title="Direct link to Media (Mount Points) and mnt (Mount Points)">​</a></h4>
+<p>The media folder (/media) and the mnt folder (/mnt) are both used as a mount point for storage devices. Typically, you'd mount USB drives or CDs/DVDs to /media and internal hard drives or SSDs to /mnt.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="opt-optional-files">opt (Optional Files)<a href="https://docwizard.github.io/blog/dir-structure#opt-optional-files" class="hash-link" aria-label="Direct link to opt (Optional Files)" title="Direct link to opt (Optional Files)">​</a></h4>
+<p>The opt folder (/opt) is used for storing optional files or applications that are not part of the standard system installation.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="proc-process-information">proc (Process Information)<a href="https://docwizard.github.io/blog/dir-structure#proc-process-information" class="hash-link" aria-label="Direct link to proc (Process Information)" title="Direct link to proc (Process Information)">​</a></h4>
+<p>The proc folder (/proc) contains virtual files that provide information about system processes, such as memory usage or running processes.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="root-root-user-files">root (Root User Files)<a href="https://docwizard.github.io/blog/dir-structure#root-root-user-files" class="hash-link" aria-label="Direct link to root (Root User Files)" title="Direct link to root (Root User Files)">​</a></h4>
+<p>The root folder (/root) is used for storing files specific to the root user.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="run-run-time-files">run (Run-time Files)<a href="https://docwizard.github.io/blog/dir-structure#run-run-time-files" class="hash-link" aria-label="Direct link to run (Run-time Files)" title="Direct link to run (Run-time Files)">​</a></h4>
+<p>The run folder (/run) is used for storing files that are created during run-time, such as socket files or temporary files.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="sbin-system-binary-files">sbin (System Binary Files)<a href="https://docwizard.github.io/blog/dir-structure#sbin-system-binary-files" class="hash-link" aria-label="Direct link to sbin (System Binary Files)" title="Direct link to sbin (System Binary Files)">​</a></h4>
+<p>The sbin folder (/sbin) contains executable binary files that are used by the system for maintenance or administrative tasks.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="srv-service-files">srv (Service Files)<a href="https://docwizard.github.io/blog/dir-structure#srv-service-files" class="hash-link" aria-label="Direct link to srv (Service Files)" title="Direct link to srv (Service Files)">​</a></h4>
+<p>The srv folder (/srv) is used for storing files related to network services or daemons.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="sys-system-configuration-files">sys (System Configuration Files)<a href="https://docwizard.github.io/blog/dir-structure#sys-system-configuration-files" class="hash-link" aria-label="Direct link to sys (System Configuration Files)" title="Direct link to sys (System Configuration Files)">​</a></h4>
+<p>The sys folder (/sys) contains virtual files that provide information about system hardware or kernel configuration.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="tmp-temporary-files">tmp (Temporary Files)<a href="https://docwizard.github.io/blog/dir-structure#tmp-temporary-files" class="hash-link" aria-label="Direct link to tmp (Temporary Files)" title="Direct link to tmp (Temporary Files)">​</a></h4>
+<p>The tmp folder (/tmp) is used for storing temporary files.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="usr-user-programs">usr (User Programs)<a href="https://docwizard.github.io/blog/dir-structure#usr-user-programs" class="hash-link" aria-label="Direct link to usr (User Programs)" title="Direct link to usr (User Programs)">​</a></h4>
+<p>The usr folder (/usr) contains user programs and applications that are not critical for system operation. Do not confuse this with the user directory you had in Windows - this is not where your documents and photos live!</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="var-variable-data">var (Variable Data)<a href="https://docwizard.github.io/blog/dir-structure#var-variable-data" class="hash-link" aria-label="Direct link to var (Variable Data)" title="Direct link to var (Variable Data)">​</a></h4>
+<p>The var folder (/var) contains files that store variable data such as log files, temporary files, or spool files.</p>
+<p>And that's it! Depending on your specific Linux distro, some of these directories might be missing, or you might have some extras. If you're not sure what you're doing, try not to mess with the files outside of your home directory too much. When starting out with Linux, I find it's best to follow a step by step guide - of which there are many available online - whenever you wish to do something that can't be easily done through the GUI.</p>]]></content>
+        <author>
+            <name>Maciej Kitlasz (DocWizard)</name>
+            <uri>https://www.kitlasz.eu/</uri>
+        </author>
+        <category label="Linux" term="Linux"/>
+        <category label="directories" term="directories"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Handy bash backup script]]></title>
         <id>https://docwizard.github.io/blog/backup-script</id>
